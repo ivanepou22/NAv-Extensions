@@ -12,16 +12,13 @@ codeunit 50100 MyNewCodeunit
     local procedure OverLoadedProc()
     var
         myInt: Integer;
-        intcc: Decimal;
     begin
-        //Message('The procedure Overloadding'); 
-      
-
+        Message('The procedure Overloadding'); 
     end;
     local procedure OverLoadedProcs(Invp:Integer)
     var
         myInt: Integer;
     begin
-        
+         Message('The procedure Overloadding'); 
     end;
 }
